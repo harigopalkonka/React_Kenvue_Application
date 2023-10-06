@@ -1,0 +1,67 @@
+.pgpagination {
+    margin-left:1060px;
+    margin-top: 15px;
+
+}
+.pgtable-container{
+    display: flex;
+    flex-direction: row;
+}
+.pgcount-header {
+    width: 900px;
+    margin-right:820px;
+}
+
+.pgtable-icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right:70px;
+}
+.pgtable-icon {
+    margin-top:30px;
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+.pgtable-head {
+    background-color: gainsboro;
+}
+.pgtable {
+    width:93%;
+    height:400px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+th ,td {
+    padding:0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+
+button {
+    height:35px;
+    width:35px;
+    background-color: lightseagreen;
+    color:white;
+}
+.select-records{
+    height: 50px;
+    width: 50px;
+}
+
+.pgTableBelowSection{
+    display: flex;
+    flex-direction: row;
+    margin-top:100px;
+    margin-left: 50px;
+}
+
+.pgselect {
+    height: 30px;
+    background-color:white;
+}

@@ -1,0 +1,110 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.select {
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.invokebtn {
+    color: lightseagreen;
+    border-color: lightseagreen;
+    background-color: white;
+    height: 40px;
+    width: 75px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.middle-conatiner {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+
+
+.tab-buttons button.active {
+      background-color:lightseagreen;
+      color: #fff;
+      width: 250px;
+    }
+
+.tab-buttons {
+    display: flex;
+    flex-direction: row;
+}
+.all-tabs {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-content {
+    margin-top: 25px;
+}
+
+.tab-container {
+    margin-top: 25px;
+}
+
+.table-head {
+    background-color: gainsboro;
+}
+
+table {
+    width:100%;
+}
+
+th ,td {
+    padding:10px;
+    padding-left: 10px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: whitesmoke;
+  }
+.search-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.search-anchor {
+    text-decoration: none;
+    color: blue;
+    margin-top: 20px;
+}
+
+.search-innercontainer{
+    display: flex;
+    flex-direction: row;
+}
+.search-arrow {
+    margin-left: 10px;
+}
+
+.search-next {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.doc-input {
+    height: 35px;
+    width: 89%;
+}
+
+.doc-select {
+    padding: 10px;
+    background-color: #fff;
+    margin-right:40px;
+}
+
+.doc-inputselect {
+    margin-top: 10px;
+    margin-bottom:5px;
+}

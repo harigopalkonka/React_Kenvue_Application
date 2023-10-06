@@ -1,0 +1,84 @@
+.Adminheading {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left:40px ;
+}
+
+.tab-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-buttons button {
+  border-style:double;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  background-color: transparent;
+  color: black;
+}
+
+.tab-buttons button.active {
+  background-color:lightseagreen;
+  color: #fff;
+}
+
+.tab-container{
+  margin-left: 40px;
+}
+
+.addbtn-container{
+  background-color: transparent;
+  color:blueviolet;
+  width: 100px;
+  height:50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: blueviolet;
+  margin-left: 625px;
+  
+}
+
+.tab-section{
+  display: flex;
+  flex-direction: row;
+  margin-right: 55px;
+  border-style: double;
+  border-width: 1px;
+  border-color: black;
+}
+
+.tab-content {
+  margin-right: 45px;
+}
+
+.table-head {
+  background-color: gainsboro;
+}
+.table {
+  width: 95%;
+}
+
+th ,td {
+  padding:5px;
+  width:300px;
+  height:30px;
+  text-align: start;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+.admin-col {
+  margin-left:800px;
+}
+
+.admin-col-1 {
+  padding-left: 900px;
+}
+
+.admin-col-2 {
+  padding-left: 860px;
+}
